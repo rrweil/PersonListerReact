@@ -89,11 +89,4 @@ class PeopleTable extends React.Component {
 }
 
 
-
 export default PeopleTable;
-
-
-
-//{ this.state.people.map((person, i) => <tr className={person > 65 ? 'table-danger' : ''}><td>person.firstName</td><td>person.lastName</td><td>person.age</td></tr>) }
-
-//{this.state.people.map((person, i) => <li key={i} className={person > 65 ? 'table-danger' : ''} >{person.firstName}</li>)}
